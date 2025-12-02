@@ -19,3 +19,16 @@ Créer une page html d’accueil et une page php qui sert au concours photo.
 cheffe d’équipe.
 • Créer un formulaire pour soumettre les photos (qui sont enregistrées sur le
 site) et un formulaire de vote.
+
+
+Développeur Créa. Il/elle doit :
+• Créer un CSS définissant les classes dont les noms sont donnés par le/la
+cheffe d’équipe.
+• Trouver des photos d’oiseaux pour illustrer.
+
+
+Hébergeur. Il/elle doit :
+• Héberger le site en local pour le tester.
+• Créer la base de donnée.
+• Si le temps le permet, héberger le site sur un vrai hébergeur. (Votre alwaysdata par exemple, et dans ce cas il faut aussi créer la base de données sur
+alwaysdata.)
