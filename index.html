@@ -1,45 +1,122 @@
 <!DOCTYPE html>
-<html lang="fr">
 
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-  <a href="fichier.php">Aller vers la page PHP</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="home">
-    <section id="titre">
-        <h1>Oiseaux </h1>
-      <h3>Les petits oiseaux  </h3>
-      <div>
-         <img class="affiche" src="oiseau/oiseau.jpg" />
-      </div>
-
-      <div>
-        <img class="affiche" src="oiseau/carduelis-tristis.jpg" />
-      </div>
-
-      <div>
-        <img src "grande-aigrettem-montoux-1368x1025.jpg""/>
-      </div>
-    </section>
-    <section id="contenu">
-
-       </div>
-    </section>
-  </main>
-
-  <footer>
-  </footer>
+    
 </body>
-
 </html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fan page HTML</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
+          <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Gloria+Hallelujah&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#images-liens">Images et liens</a></li>
+                    <li><a href="google.fr">Moteur de recherche</a></li>
+                    <li><a href="#">Un dernier lien</a></li>
+                </ul>
+            </nav>
+            <div id="banner">
+                <figure id="logo" class="header-content">
+                    <img src="img/html5.png">
+                </figure>
+                <div id="header-titre" class="header-content">
+                    <h1>HTML FAN PAGE</h1>
+                    <p>Vous devez reproduire cette page en tenant compte des consignes écrites DANS la page !</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="titre">
+                <h2>Découvrons le langage HTML</h2>
+                <p class="avis">Fondamental ...</p>
+            </div>
+            <section id="html">
+                <div class="mmibox bleu">
+                        <h3 >HTML</h3>
+                    <p>
+                        HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». 
+                        Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies 
+                        sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
+                    </p>
+                    <p>
+                        L'« hypertexte » désigne les liens qui relient les pages web entre elles, que ce soit au sein d'un même site web ou entre 
+                        différents sites web. Les liens sont un aspect fondamental du Web. Ce sont eux qui forment cette « toile » (ce mot est traduit par web en anglais). 
+                        En téléchargeant du contenu sur l'Internet et en le reliant à des pages créées par d'autres personnes, vous devenez un participant actif du World Wide Web.
+                    </p>
+                    <p>
+                        Le langage HTML utilise des « balises » pour annoter du texte, des images et d'autres contenus afin de les afficher dans un navigateur web.
+                    </p>
+                </div>
+
+                <div class="mmibox bleu">
+                    <h3 >Balises de structure</h3>
+                    <div>
+                        <ul>
+                            <li>&lt;header&gt; : en-tête</li>
+                            <li>&lt;nav&gt; : navigation</li>
+                            <li>&lt;section&gt; : section de page</li>
+                            <li>&lt;aside&gt; : section latérale</li>
+                            <li>&lt;footer&gt; : pied de page</li>
+                            <li>&lt;figure&gt; : unité de contenu</li>
+                            <li>&lt;figcaption&gt; : légende</li>
+                            <li>&lt;div&gt; : élément bloc</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="images-liens">
+                <div class="mmibox rouge">
+                        <h3 >Balises, images et liens</h3>
+                    <div>
+                        <ul>
+                            <li>&lt;img /&gt; : image</li>
+							<li>&lt;img src=""&gt; : source de l'image</li>
+						    <li>&lt;img alt=""&gt; : texte alternatif</li>
+							<li>&lt;a&gt; : lien</li>
+							<li>&lt;a href=""&gt; : origine du lien</li>
+							<li>&lt;a target=""&gt; : destination du lien</li>
+							<li>&lt;a href="mailto:"&gt; : lien d'envoi de mail</li>
+							<li>&lt;a href="tel:"&gt; : lien d'appel </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pref">
+                <div class="mmibox vert">
+                        <h3 >Ma page préférée</h3>
+                    <figure >
+                        <img src="img/capture.png">
+                    </figure>
+                    <a href="https://2025.mmibut1.org/S1/">Lien vers le site</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Les éditions mmi</p>
+        </footer>
+    </body>
+</html>
+
